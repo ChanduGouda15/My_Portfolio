@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Chandu - Full Stack Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="matrix-bg">
+    <canvas class="matrix-canvas" id="matrixCanvas"></canvas>
+  </div>
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">SaiChandu</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content fade-in">
+      <div class="hero-greeting">cout<<"Hello World!";</div>
+      <h1 class="hero-name" id="animatedText">I'm Sai Chandu</h1>
+      <div class="hero-title"></div>
+      <p class="hero-description coder-text">
+        Passionate about crafting efficient, scalable web applications using modern technologies. 
+      </p>
+      <div class="cta-buttons">
+        <a href="#projects" class="btn btn-secondary">View My Work</a>
+        <a href="assets/cv.pdf" class="btn btn-secondary" download>Download CV</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/chandu-cg15" class="social-link"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/ChanduGouda15" class="social-link"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="assets/me.jpg" alt="Sai Chandu Profile" class="profile-img">
+      </div>
+      <div class="about-text">
+        <h3>void about_me{}:</h3>
+        <p class="coder-text">
+          I'm an enthusiastic full-stack developer with a passion for creating robust, 
+          scalable web applications. My journey in software development has equipped me 
+          with expertise in the JavaScript ecosystem and modern web technologies.
+        </p>
+        <div class="education-info">
+          <h4><i class="fas fa-graduation-cap"></i> Education</h4>
+          <p class="coder-text">BTech in Electronics and Computer Engineering - VIT Chennai</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3><i class="fas fa-code"></i> Languages</h3>
+        <div class="skills-list">
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg" alt="JavaScript Logo" class="skill-logo"> JavaScript</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/cplusplus.svg" alt="C/C++ Logo" class="skill-logo"> C/C++</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg" alt="SQL Logo" class="skill-logo"> SQL</span>
+        </div>
+      </div>
+      
+      <div class="skill-category">
+        <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+        <div class="skills-list">
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" alt="React Logo" class="skill-logo"> React.js</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nextdotjs.svg" alt="Next.js Logo" class="skill-logo"> Next.js</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/html5.svg" alt="HTML5 Logo" class="skill-logo"> HTML</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/css3.svg" alt="CSS3 Logo" class="skill-logo"> CSS</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tailwindcss.svg" alt="Tailwind CSS Logo" class="skill-logo"> Tailwind CSS</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/bootstrap.svg" alt="Bootstrap Logo" class="skill-logo"> Bootstrap</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/jquery.svg" alt="jQuery Logo" class="skill-logo"> jQuery</span>
+        </div>
+      </div>
+      
+      <div class="skill-category">
+        <h3><i class="fas fa-server"></i> Backend</h3>
+        <div class="skills-list">
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg" alt="Node.js Logo" class="skill-logo"> Node.js</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/express.svg" alt="Express.js Logo" class="skill-logo"> Express.js</span>
+        </div>
+      </div>
+      
+      <div class="skill-category">
+        <h3><i class="fas fa-database"></i> Database</h3>
+        <div class="skills-list">
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mongodb.svg" alt="MongoDB Logo" class="skill-logo"> MongoDB</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg" alt="PostgreSQL Logo" class="skill-logo"> PostgreSQL</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mongoose.svg" alt="Mongoose Logo" class="skill-logo"> Mongoose</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/prisma.svg" alt="Prisma Logo" class="skill-logo"> Prisma</span>
+        </div>
+      </div>
+      
+      <div class="skill-category">
+        <h3><i class="fas fa-cloud"></i> DevOps & Tools</h3>
+        <div class="skills-list">
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/docker.svg" alt="Docker Logo" class="skill-logo"> Docker</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/kubernetes.svg" alt="Kubernetes Logo" class="skill-logo"> Kubernetes</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/jenkins.svg" alt="Jenkins Logo" class="skill-logo"> Jenkins</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/circleci.svg" alt="CI/CD Logo" class="skill-logo"> CI/CD</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/amazonaws.svg" alt="AWS Logo" class="skill-logo"> AWS</span>
+        </div>
+      </div>
+      
+      <div class="skill-category">
+        <h3><i class="fas fa-tools"></i> Development Tools</h3>
+        <div class="skills-list">
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/visualstudiocode.svg" alt="VS Code Logo" class="skill-logo"> VS Code</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postman.svg" alt="Postman Logo" class="skill-logo"> Postman</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/git.svg" alt="Git Logo" class="skill-logo"> Git</span>
+          <span class="skill-tag"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub Logo" class="skill-logo"> GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="assets/expenses.png" alt="Expenses Tracker" class="project-image">
+        <div class="project-content">
+          <h3 class="coder-text">Expenses Tracker</h3>
+          <p class="coder-text">Expenses Tracker built with React, Node.js, and MongoDB.</p>
+          <div class="project-links">
+            <a href="https://github.com/ChanduGouda15/Expenses-Tracker" class="project-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <img src="assets/va.jpg" alt="Virtual Voice Assistant" class="project-image">
+        <div class="project-content">
+          <h3 class="coder-text">Virtual Voice Assistant</h3>
+          <p class="coder-text">Built a AI assistant using the MERN,Tailwind CSS & Gemini APIs that can listen to voice commands and respond back with speech.</p>
+          <div class="project-links">
+            <a href="https://github.com/ChanduGouda15/Virtual-Assistant" class="project-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <img src="assets/resume.webp" alt="Resume Builder" class="project-image">
+        <div class="project-content">
+          <h3 class="coder-text">Professional Resume Builder</h3>
+          <p class="coder-text">Developed a complete resume builder web application using the MERN stack where users can create multiple resumes, track their progress, and export them as PDF files.</p>
+          <div class="project-links">
+            <a href="#" class="project-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <img src="https://lh3.googleusercontent.com/Ue_eBg9NAhI9TK8fW7eVCQA_yt1YRGHM0usVsRR8G4hhWxP9iNtRwC_Y-CiYnLQCgHkazvTOW-OjmNEAMiySpAUkLw=s1280-w1280-h800" alt="QR generator" class="project-image">
+        <div class="project-content">
+          <h3 class="coder-text">QR Code Generator</h3>
+          <p class="coder-text">Built with Node.js.</p>
+          <div class="project-links">
+            <a href="https://github.com/ChanduGouda15/QR-code" class="project-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <img src="https://www.skoolbeep.com/blog/wp-content/uploads/2021/08/Student-Database-FEA.png" alt="student databse" class="project-image">
+        <div class="project-content">
+          <h3 class="coder-text">Student Database Management</h3>
+          <p class="coder-text">Built a student database program in C++ that lets you add new student records, search for existing ones, and update or delete information as needed.</p>
+          <div class="project-links">
+            <a href="https://github.com/ChanduGouda15/students-database" class="project-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://t3.ftcdn.net/jpg/01/12/79/88/240_F_112798819_t5swswa8JfMpyRdjVljXveGEi4pkthZd.jpg" alt="Drum Kit" class="project-image">
+        <div class="project-content">
+          <h3 class="coder-text">Drum Kit</h3>
+          <p class="coder-text">Built with HTML,CSS and JavaScript.</p>
+          <div class="project-links">
+            <a href="https://github.com/ChanduGouda15/Drum-Kit" class="project-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-content">
+      <p class="coder-text" style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 2rem;">
+        I'm always open to discussing new opportunities and interesting projects. 
+        Let's connect and build something amazing together!
+      </p>
+      <div class="contact-info">
+        <div class="contact-item">
+          <h4><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg" alt="Gmail Logo" class="contact-logo"> Email</h4>
+          <a href="mailto:chandugouda2022@gmail.com">chandugouda2022@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <h4><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn Logo" class="contact-logo"> LinkedIn</h4>
+          <a href="https://www.linkedin.com/in/chandu-cg15">Connect on LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
