@@ -60,7 +60,7 @@ function draw() {
 
 
     if (drop.y > canvas.height || drop.opacity <= 0) {
-      drop.y = Math.random() * -100; // Start above canvas
+      drop.y = Math.random() * -100; 
       drop.speed = Math.random() * 2 + 1;
       drop.opacity = 1.2;
       drop.snippet = codeSnippets[Math.floor(Math.random() * codeSnippets.length)]; 
@@ -75,7 +75,7 @@ setInterval(draw, 33);
 
 
 const animatedText = document.getElementById('animatedText');
-const texts = ["Sai Chandu", "a Full Stack Developer"];
+const texts = ["Sai Chandu.", "a Full Stack Developer.."];
 const prefix = "I'm ";
 let currentIndex = 0;
 let isDeleting = false;
